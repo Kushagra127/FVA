@@ -1,0 +1,61 @@
+body {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+main {
+  flex: 1 0 auto;
+}
+   
+
+.alternate-option {
+  margin-left: 20px;
+  position: relative;
+  top: 15px;
+}
+
+
+
+.input-field label{
+  color:black;
+}
+span{
+  color: black;
+}
+
+label{
+  color: black;
+}
+.dell-blue{
+  background-color:#007CB6;
+}
+.dell-blue-dark{
+  background-color:#006BA5;
+}
+
+.dell-blue-text{
+  color: #007CB6;
+  font-weight: 500;
+}
+
+input {
+  text-align: center;
+}
+/*------------------------------------Footer----------------------------------*/
+#footer {
+  padding: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #007CB6;
+  color: white;
+  text-align: center;
+}
+
+.footer-text{
+  font-size: large;
+}
